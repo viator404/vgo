@@ -1,14 +1,10 @@
-# Luke's Hugo Theme
-
-A simple Hugo theme I plan on using for my personal website, [Based.Cooking](https://based.cooking) and [LandChad.net](https://landchad.net).
-
 ## get started
 
 ```sh
 hugo new site new-site
 cd new-site
-git clone https://github.com/lukesmithxyz/lugo themes/lugo
-echo "theme = 'lugo'" >> config.toml
+git clone https://github.com/viator404/vgo themes/lugo
+echo "theme = 'lugo'" >> hugo.toml
 cp themes/lugo/static/style.css static/
 ```
 
